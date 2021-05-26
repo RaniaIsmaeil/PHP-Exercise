@@ -1,0 +1,52 @@
+body {
+     background: linear-gradient(110deg, #727272 60%, #000000 60%);;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content h1 {
+    font-size: 30px;
+    background-color: rgb(41, 39, 39);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 90%;
+    text-align: center;
+}
+.content {
+    background-color: rgb(168, 196, 223);
+    border-style: groove;
+    border-width: 7px;
+    border-color: rgb(90, 87, 85);
+    border-radius: 9%;
+    width: 300px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#button{
+    width: 100px;
+    padding: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+#overall {
+    border-style: double;
+    border-color: hsl(hue, saturation, lightness);
+
+    background-color: rgb(196, 212, 184);
+    width: 95%;
+    padding: 2px;
+    margin: 5px 0;
+}
+input#ammount,
+input#taxRate {
+    width: 90%;
+    text-align: right;
+    padding: 5px;
+    margin: 5px 0;
+}
+#overall p {
+    padding: 1px;
+    margin: 5px 5px;
+}
