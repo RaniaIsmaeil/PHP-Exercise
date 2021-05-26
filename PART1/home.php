@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <title>Registration and Login Page</title>
 <link rel="stylesheet" href="home.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 </head>
 <body>
 <?php
+
 $FullName = $Username = $Password = $ConfirmPassword = $Email = $Phone = $DateOfBirth = $SocialSecurityNumber = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -28,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
    
    </div>
-   <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+   <form method="POST" action="safe.php"<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
    <div class="title">
    <i class="fas fa-pencil-alt"></i> 
          
